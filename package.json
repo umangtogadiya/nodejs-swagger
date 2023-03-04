@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-swagger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umangtogadiya/nodejs-swagger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umangtogadiya/nodejs-swagger/issues"
+  },
+  "homepage": "https://github.com/umangtogadiya/nodejs-swagger#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
