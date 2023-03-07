@@ -1,0 +1,44 @@
+tags:
+  - name: Users Simple
+    description: User Information
+/user-list:
+  get:
+    tags:
+      - Users Simple
+    summary: Users Listing
+    description: User Listing Based on Free API
+    # if body contains value then use below code ----- Start ->>>>>>>>>
+    # requestBody:
+    #   required: true
+    #   content:
+    #     application/json:
+    #       schema:
+    #         type: object
+    #         properties:
+    #           id:
+    #             type: number
+    #             example: 200
+    # End ->>>>>>>>>
+    responses:
+      200:
+        description: User Client Info Listing
+        # if response return data then use below code ----- Start ->>>>>>>>>
+        # content:
+        #   application/json:
+        #     schema:
+        #       type: object
+        #       properties:
+        #         message:
+        #           type: string
+        #           example: User Listing fetched from database
+        #         data:
+        #           type: object
+        #           properties:
+        #             users:
+        #               type: array
+        #               example: [{user1}, {user2}, {user3}]
+        # End ->>>>>>>>>
+      422:
+        description: Invalid Input Arguments
+      500:
+        description: Something went wrong!
