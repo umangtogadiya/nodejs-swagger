@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "nodemon src/main.ts"
   },
+  "engine": {
+    "node": "16.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/umangtogadiya/nodejs-swagger.git"
