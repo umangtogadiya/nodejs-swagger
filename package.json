@@ -4,7 +4,9 @@
   "description": "Nodejs Swagger Implementation in Typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/main.ts"
+    "dev": "nodemon --exec ts-node src/main.ts",
+    "build": "tsc",
+    "vercel-build": "echo Hello Umang"
   },
   "engine": {
     "node": "16.x"

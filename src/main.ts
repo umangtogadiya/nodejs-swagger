@@ -19,3 +19,5 @@ app.listen(port, () => {
   console.log(`✅ Server Listening on ${port}`);
   swaggerDocs(app);
 });
+
+export default app;
