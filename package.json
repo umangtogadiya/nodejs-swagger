@@ -4,7 +4,7 @@
   "description": "Nodejs Swagger Implementation in Typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/main.ts"
+    "dev": "nodemon --exec ts-node src/main.ts"
   },
   "engine": {
     "node": "16.x"

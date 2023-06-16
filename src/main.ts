@@ -14,7 +14,7 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   return res.status(500).send("Something went wrong!");
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3111;
 app.listen(port, () => {
   console.log(`✅ Server Listening on ${port}`);
   swaggerDocs(app);
