@@ -18,7 +18,7 @@ const options: swaggerJsdoc.Options = {
         },
       },
     },
-    servers: [{ url: "http://localhost:3001/api/", description: "Version 1" }], // Change this to as your requirements or you can remove this
+    servers: [{ url: "http://localhost:3000/api/", description: "Version 1" }], // Change this to as your requirements or you can remove this
   },
   apis: ["./src/utils/*.yaml"], // this'll import all yaml file from this folder you can change file format and use from here
 };
