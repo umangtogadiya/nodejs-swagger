@@ -7,9 +7,6 @@
     "dev": "nodemon --exec ts-node src/main.ts",
     "build": "tsc"
   },
-  "engine": {
-    "node": "16.x"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/umangtogadiya/nodejs-swagger.git"
