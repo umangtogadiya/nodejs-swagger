@@ -8,6 +8,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/", routes);
+app.get("tets", (req: Request, res: Response) => {
+  res.send({ status: "success" });
+});
 
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   console.log("❌ ", err);
